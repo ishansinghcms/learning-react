@@ -1,10 +1,11 @@
 import "./App.css";
-import ParentComponent from "./context-api/ParentComponent";
+// import ParentComponent from "./context-api/ParentComponent";
+import Component from "./use-callback/Component";
 
 function App() {
   return (
     <>
-      <ParentComponent />
+      <Component />
     </>
   );
 }
