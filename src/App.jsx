@@ -1,7 +1,12 @@
 import "./App.css";
+import ParentComponent from "./context-api/ParentComponent";
 
 function App() {
-  return <>app</>;
+  return (
+    <>
+      <ParentComponent />
+    </>
+  );
 }
 
 export default App;
